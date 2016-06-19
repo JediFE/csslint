@@ -1,5 +1,5 @@
 /*!
-CSSLint v0.10.0
+CSSLint v0.10.1-beta
 Copyright (c) 2016 Nicole Sullivan and Nicholas C. Zakas. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -41,7 +41,7 @@ var CSSLint = (function() {
         embeddedRuleset = /\/\*\s*csslint([^\*]*)\*\//,
         api             = new parserlib.util.EventTarget();
 
-    api.version = "0.10.0";
+    api.version = "0.10.1-beta";
 
     //-------------------------------------------------------------------------
     // Rule Management
